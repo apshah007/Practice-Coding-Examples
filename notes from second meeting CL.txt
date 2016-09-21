@@ -1,0 +1,285 @@
+Challenge #1:
+
+var array = [1, 2, 3, 4, 5];
+Part 1: Iterate through this array and log out the sum of the numbers in the array to the console.
+
+Part 2: Use the .splice() function to insert the number 6 after the number 2 in the array.
+
+Challenge #2:
+
+<div class=“main-content”>
+     <h2>The first Apple laptop cost how much? <span>Answer</span></h2>
+</div>
+Using jQuery, change the .text( ) of “Answer” to “$6,500”.
+
+
+Challenge 1 attempt
+var x=0; 
+var array = [1, 2, 3, 4, 5]; 
+for array[x], x<4, x++ 
+ {
+  array.splice [x]; 
+ }
+
+Challenge 2 attempt 
+<div class=“main-content”>
+     <h2>The first Apple laptop cost how much? <span>Answer</span></h2>
+</div>
+
+main-content.span = "6,500"
+
+project expectations 
+
+november 18, Friday before thanksgiving 
+posted on slack, all the project requirements 
+show off to a potential employer 
+link to github - project to shine
+people should pick what they are interested in 
+these are on the github wiki 
+app must be responsive, must react to size of browser,  media queries or break points 
+front end  html, css and JS   may use bootstrap 
+mean stack - mongo node - back end 
+express, have to have a database and have to have server side communication 
+must be in github 
+must have comments in your code 
+this is the part where I call the database 
+there must be a readme file with a quick overview of what the project is 
+must have any requirements needed to run the project 
+url of something - or packages that have to be installed (npm) 
+
+MVC pattern - style of development 
+separate your code out 
+one section handles user interface 
+another with where the data is manipulated 
+there must be some sort of clear model of what is going on 
+keep clean code 
+try to follow design principals 
+
+crud  - create, read update and delete 
+the project must read and create (post and get) 
+must use mongo db 
+what are projects supposed to be 
+webapp - solve a problem in your life 
+but must demonstrate the principals 
+API - application programming interface.  use data from someone elses database 
+time tracking app for work 
+user friendly dummy pages - build skeleton website, edit profile 
+create a social media profile 
+
+Ways to find a project 
+list of pains 
+think of ways to fix the problem 
+check to see if the fix can be made through a web application 
+
+use google maps to find routes and these can be integrated into app 
+how to fix and make it better 
+evaluate the idea - how can technology help with this 
+plans to post this on slack tonight 
+project, - front end, database and mean stack 
+
+must break this down in to components 
+users 
+data needed 
+what is being done with the data 
+will you need to read, input or evaluate the data 
+
+features could be replaced by packages on the javascript stack 
+UI - may use bootstrap to set up columns 
+need to focus on functionality 
+not the way it looks 
+
+passport local  - node package that already handles login and log out  
+need to build the interface -  using this is more easy 
+
+someone has probably already done it 
+may add in other peoples work  and customize it for your work 
+
+dont add too many features in for this 
+this project does not have to be complete 
+there is a deadline and there is no extension 
+keep UI principals in place, have some feedback for the user 
+follow good programming principals 
+test the program - have others test the program with you 
+week 10 or 11 this project must be relatively complete and testable 
+
+fewer features are better and software is never done it is just release 
+lean startup 
+it may be terrible product and it can be improved 
+need to do bug fixing  and more things to do 
+
+quick demo for this class today 
+thinking about project right now 
+content generation 
+coding is difficult because you are still learning 
+need to commit more and push more to github, best ways to get help is to put it in the github repo 
+you dont have the knowledge yet to do the whole project 
+
+need to come up with an idea now 
+databases are perhaps complication 
+need to read and write from a database 
+single database is ok, it does not have to be complex 
+treehouse will go over some of the hosting 
+
+fluid host - cheap 
+html, ccs, js - github pages - free website where they will post it for free 
+project design software - wireframe, balsamic, whiteboard, free license for envision to animate things 
+balsamic has some pictures already made up, you dont have to sketch up some things 
+envision can create a sketch and then move to the next one  you can only do one project free 
+
+lynda.com   "Invision" 
+
+app from a recent graduate 
+works with a small woodworking shop 
+quickly communicate and sketch designs together 
+3wirechat 
+ 
+login system   register an email and password 
+create an account and sign up    - - passport local 
+chat feature - node js and angular on front end and stored on mongo db  fetched on realtime 
+you can have 2 users 
+
+calculator for the wood that is needed for the project 
+creates a list for what you need for a project 
+post and write 
+read when you add something 
+
+incomplete features - 
+has responsive designs - 
+angular has templates that allow tabs 
+
+chat function socket.io (node package) that handles all the communication 
+express js is part of the mean stack 
+
+code challenge - problems 
+making changes in app.js 
+
+copy the cdn version 
+need to include the jquery library 
+add it to the html file in the script tag 
+must tell the website to add jquery 
+may download jquery or use a cdn - content delivery network (streamlined for very quick download) 
+all the instructions for jquery to be downloaded 
+need to link out to the cdn, line of script that needs to be read to find the jquery library 
+
+stay consistent with the version that you are using 
+always use google cdn, may do an exception to make sure your cdn is right 
+jquery is javascript code, it is easier to have the js in a separate file 
+
+
+
+this code should be at the end of the html file to call the js file which has all the scripting in it 
+<script src = "http://url,,,.js"
+<script src = js/app.js" type="text/javascript" charset ="utf-8"
+</body>
+</html>
+
+second prompt is to - on hover over a sign flash card show it 
+when you stop hovering hide it 
+
+$('flash-card').hover(
+function(){                             // handler in    
+ $(this).children('.answer').show()
+},
+function(){                             // handler out 
+ $(this).children(.'answer').hide();
+}
+);
+
+hover has a property of handler in and handler out 
+.hover is function used - 2 parameters that can be passed to the hover function 
+these are placeholders for a function 
+uses an anonymous function 
+if you name the function you can call it by way 
+
+need to work on the code challenge for this week again  - it was the flashcards 
+
+also need to work on forking github again 
+
+make sure you are getting the right assignment from the code louisville github site 
+look at the jquery website to look over the different jquery properties 
+
+.this selector  flashcard (parent) 
+.children - both of the spans 
+
+further narrowing the children to the ones with the class of answer 
+.children('.answer')...
+
+may be able to toggle the code
+$(this).children('.answer').toggle();
+
+may use mouseover and mouseout instead of using the hover function - use in jquery 
+hover is probably one more layer 
+hover might be cleaner use of code 
+less code and cleaner may not be easier to understand 
+
+have the button on the bottom flips all the answers on and off and - show all the answers 
+var cheating = false; 
+$('.cheat-button').click()
+  function(){
+    cheating = !cheating; 
+    if (cheating){
+      $('.answer').show();
+      $(this).text('Hide all the answers');
+   }
+else{
+  $('.answer).hide();
+  $(this).text('Show all answers');
+}
+}
+
+2 alternative approaches 
+use hover to check 
+use the text of the button to determine state of the flashcards 
+} 
+
+mentors names 
+Joey 
+Shawn 
+Gary 
+another mentor is starting 
+
+new challenge for next week 
+create a new folder and new repository 
+attempt to merge locally with the changes to code louisville 
+
+need to go to github
+fork it 
+then clone it on the terminal 
+
+cd github
+gh clone
+
+deny conformity - shauvon website
+
+add all the changes 
+git add -A    or git add .
+git add test.js 
+
+stage evertything to be committed then commit them 
+stage the small changes then commit them 
+dont do all the commits at once 
+
+git commit -m " changed app js   fixed a bug "
+
+git push 
+if you clone it down, then the local repo know about the remote location 
+can add things manually 
+
+git status 
+when you clone something down, you have to move to the lower directory 
+git status tells you what file you are working on right now 
+
+red means not added or committed 
+green means added but not committed 
+
+this will tell you where you are in relation to git hub 
+it remembers that you change the file 
+
+undo changes 
+git checkout    - give me what I used to have 
+challenges/week3/test.js 
+git status done again - the copy is not there anymore. 
+
+ 
+
+
