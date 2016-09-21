@@ -1,0 +1,129 @@
+code louisville third coding meetup 
+
+Brian  - new mentor 
+mainframe programming 
+software development 
+software for microsoft 
+
+always hiring - smart people with a good attitude 
+testing knowledge of programming - interview 
+
+shannon siders - address
+student success coordinator 
+help with job readiness 
+who is hiring junior dev
+networking 
+
+attend a lot of networking events 
+did code louisville last year and has done front end development 
+likes to go to social events related to programming 
+last month went to ember meetup 
+
+very positive welcome environment at these networking events 
+discusses stress at networking 
+social and educational 
+business cards are not required 
+follow up and use linked in 
+
+how people get jobs they get jobs by networking 
+networking is how people find jobs 
+interview stage is helped if you already know someone there 
+referred candidates hold their positions for much longer 
+the people are vouching for you
+I have never got a job applied for, it had to be networking 
+need to vouch for you that you are not lazy or dont get along with people 
+
+shannon - did not want to continue with programming but had kept in touch so got this job 
+networking helped many people in code Louisville already in a survey they did 
+
+graduate in 2015 went to a lot of networking events and she was brought on 
+she was able to be taught anything extra she needs to know 
+most people are able to wear casual clothes or business casual clothes to a networking event
+
+linkedin - social networking project  shannon is going to talk more about this at the end of this session 
+she is able to grow her professional development through linked in 
+if you already have a profile, dont make another profile.  Helps to make it more tech friendly and not focus on what you were doing before 
+creating meaningful relationships with others, enjoy self and be authentic
+she wants to genuinely get to know others in the meetup  so that you have relationships with people 
+choose the style of even that works for you    speaker meetings, more social meetups, javascript hack night 
+never felt in a knowledge sense felt uncomfortable at these events 
+find a connector in the room  - find someone who looks like they know someone and see if they can help you connect to people 
+keep going to the same meetups and events to build relationships with people 
+louisville.io 
+recommend to join their slack channel 
+look at the calendar of all the events that are coming up 
+build guild 
+likes to attend the agile meetup she states that the times and dates of the events are on there 
+discusses how meetup works 
+louisville tech ladies   Brian new mentor agrees that women should attend the womens meetups to get more support from other women in tech 
+other groups that are helpful is YPAL  next meeting for the tech committee is in november 
+speed networking meetings are coming up for YPAL 
+can bring your computer to the meetup but if it is in a restaurant or in a bar dont bring your computer
+open hack louisville - may sit there and work on projects, these mostly dont have registration costs, except for ypal
+things to attend are the things that are free   talk to everyone that you meet   
+you want to be around people that love to do this 
+ask people about the projects you are doing 
+here is the demonstration of my work    here is the proof 
+
+making an impression and elevator talks, create a positive impression  cultivate the relationships 
+see how people talk about their jobs   listen to what the good companies are 
+ask open ended questions   be a hero to people to are awkward or uncomfortable 
+know the goals - meet people, get job or help with project 
+talked about elevator pitches 
+write down every skill that you have and want to have 
+start crossing out some things that you did not like 
+did not like social media marketing   had some basic code development skills 
+go by social cues to see if the person is interested and tell them more if they want 
+optional one on one session with shannon at the end 
+making you a unique candidate   - practice your pitch so that you can be presented as a good candidate 
+
+3-4 sentences about yourself in a compact way helps with elevator speech 
+conversation topics - emerging technologies, name, tech news, what project are they working on 
+side project and they might tell you about their projects 
+app ideas and projects with friends are things you might be able to talk about 
+what did you think about the speaker 
+what are some other groups that you are a part of 
+dont bring up controversial topics 
+keep it technical event oriented and hobbies 
+
+Shawn will explain the code challenge 
+
+challenge 1 
+
+showBlock is not there   - it is openBlock 
+
+id  = menu_item_ (then the name of the button) 
+
+.split takes in a parameter 
+parameters are separator and limit 
+give it another string and cut the string Id into 2 parts 
+
+menu_item_home.split(' ') 
+
+
+$('#menu >li >a)
+ .on('click', function() {
+ $(this).attr('id')
+ 
+})
+
+these are the ways to take off the menu_item_  so that you can get the id of the button
+substring 
+slice 
+split 
+ 
+string are a character array 
+substring is faster for performance of the application 
+
+sometimes it is better to get something working first and then refactor it 
+ten characters were taken off from beginning  by substring to get an easier Id to work with 
+
+adding an active class 
+discusses document selectors at this point 
+
+review the github answers from others for this project. 
+
+
+
+
+
