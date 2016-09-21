@@ -1,0 +1,227 @@
+text editor 
+- atom.io 
+
+- sublime 
+
+- nano
+
+- notepad++
+- brackets 
+- visual studio code - light weight text editor 
+
+- IDE - integrated development environment - different from text editors because they actively change code that you 
+are writing, tool to help write code, compilers, testing tools to help you walk through code to see where something broke 
+- can use the IDE to do the course, but it is actually too much 
+
+dont have to use atom, but Brian prefers this one 
+
+git and github   
+need to get the git back shelf if you are windows user 
+version control - source control 
+one location where all your master code is    - it has the most complete product 
+branches from the code to work on and merge back on the master code 
+many people work on the same code together and git helps resolve any conflicts 
+git has tools that help you combine code 
+
+
+heavily used tool in the industry - version control 
+team foundation services  from microsoft   TFS 
+subversion - less known 
+
+github - different thing   not to be confused 
+it is the website 
+github.io - can store it publically,  private account for a fee 
+central place where anyone can upload code 
+can create a repository of code   fork it 
+not the same as writing git commands 
+
+git works with other things besides github 
+can create own repository on own computer 
+
+
+git bash shell - command line tool  need to use in windows 
+terminal tool that will allow me to use git commands 
+mac has this already - terminal and git integration
+
+downloaded the windows command line tool 
+there is a place where you should make sure you dont check during the installation process 
+its the credential area  - so that you have to put your password in every time 
+that prevents you from making a stupid mistake without putting your password in
+I did not uncheck that box for the credential so my credentials are saved so that means I dont have to put my 
+password in but that might mean I May want to reinstall this to make sure I put my password in if I have more than 
+one github account or do more things in the future.   
+
+git bash is a portal between you and git on the internet 
+
+git bash shell - interact with commands 
+new to consoles - commands   similar to those in windows 
+give commands through text   this is how many things are done in the industry through the console 
+various operating systems - depends from company to company what you use 
+some companies are very particular, recommend linux to learn 
+working with servers - many things are done on linux 
+
+configure your local machine 
+git init 
+
+git config --global user.name "bmleurman"
+git config --global user.email "brian@codelouisville.org"
+
+cd change directory 
+cd - hit tab 2 times   will list everything, all files 
+
+cd c: 
+switches to C/ c drive 
+make directory 
+
+cd Users/Brian/  - go to some folder on computer where the code challenges need to be saved 
+ls   stands for list 
+will list everything that goes in the directory 
+
+mkdir  make directory command  hit space and call it a name 
+
+mkdir JSCodechallenges    - makes a directory 
+
+cd JSC hit tab 
+lists everything (nothing because it is a blank directory) 
+
+must create a git repository
+
+git init - puts some git files in the folder with git commands to be executed there 
+on my local machine this directory has become something to put folders here 
+
+ls -lrt
+ls -a 
+
+ls -a - show me everything  this shows all the files in the directory 
+including the hidden files that are used to initiate the folder for git 
+
+if you need to rerun a command  hit the UP key  which helps with doing this more efficiently 
+
+if you have a space in your command line  you can use backslash as an escape character 
+
+projects - 
+web interface 
+form 
+interactivity 
+read ahead in the curriculum to find out what things you can showcase
+
+week 4 - do your project 
+week 2 - plan a project 
+create a mockup 
+need to do the project before week 8 
+ramp up each week 
+
+
+restart lecture 
+
+github.com/codelouisville   - where the weekly challenges are 
+
+find the repository 
+readme
+3 weeks worth of the challenges   3-4 challenges will change 
+
+week 2 - see the files there to help you get started 
+you can see the code for display 
+
+pull down the entire repo now 
+fork this code  - take the copy as it is right now to work on 
+fork it - it will take it to your own github page 
+will copy everything, all the files and even the history of the files 
+
+clone the files 
+do it through the command line 
+need the url of where you want to copy the files 
+
+
+git clone (past all the url here) 
+creates a copy of the code on the local machines 
+
+ls  - list these files 
+
+all the challenges should be in the the file folder that you created with the command line 
+
+now that these things are local you can work on them locally 
+in windows can open the files and work on them 
+you can open them with your text editor 
+
+you can open readme files with atom.io 
+list of all the files and start making changes 
+
+
+included a readme with the challenge 
+html file with text 
+prompt the user to ask for info
+store the info in a variable 
+create a function and pass the variable into it 
+need to make sure you call a script file 
+
+html file 
+<script src= "app.js"> </script>  put this at the bottom of the html 
+
+app.js 
+create a function 
+
+prompt user for input and store a variable 
+
+call function 
+
+alert user results 
+
+JS challenge 
+prompt user for input - prompt();
+
+prompt();    //creates a textbox 
+
+= set it equal to 
+== comparison
+=== is this precisely equal to 
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+function processMessage(msg)
+{
+if (msg==="Hello")
+{
+alert ("Hello world");
+}
+else 
+{
+alert ("You did not say hello.");
+}
+console.log(msg);
+}
+
+var message = prompt (); 
+
+processMessage(message);
+
+
+console.log (message);  - developer tools  chrome F12 key   
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+control shift I  opens the console 
+console 
+ refresh F5 
+
+console window 
+git status  - looks at the files in the directory - all files should be green 
+git add -A  - adds all the files 
+
+git status  - review the status of the files in the folder 
+
+git commit -m "completed the code challenge for week 2"   commit messages these are required by git 
+
+git add .  only applies to changes for a modified file 
+git push origin master          move from local machine to git repo 
+prompts github username and password and pushed the code. 
+ 
+
+F5 refresh the browser 
+
+
+>>> fedora 
+
+
