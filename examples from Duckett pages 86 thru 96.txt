@@ -1,0 +1,24 @@
+//functions methods and objects   chapter 3 Duckett  page85-144
+
+functions are a series of statements that have been grouped together because they perform a specific task 
+a method is same as a function except methods are created inside and are part of an object 
+
+you are able to create your own objects 
+the browser comes with a set of objects that act like a toolkit for creating interactive web pages 
+
+function getArea(width, height) {  
+  return width * height; 
+}
+
+// getting multiple values out of a function 
+
+function getSize(width, height, depth) {
+  var area = width * height; 
+  var volume = width * height *depth; 
+  var sizes = [area, volume]; 
+  return sizes, 
+}
+var areaOne = getSize(3,2,3)[0]; 
+var volumeOne = getSize(3, 2, 3)[1]; 
+
+anonymous functions and function expressions 
