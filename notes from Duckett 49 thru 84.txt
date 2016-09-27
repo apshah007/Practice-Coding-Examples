@@ -1,0 +1,176 @@
+Notes from Duckett 
+
+you do not need the src tag when the javascript is in the webpage (html document) 
+document.write() writes content into the document (the web page) 
+document.write('Good Afternoon');
+document is the object 
+. is the member operator 
+write() is a method of the document 
+'Good Afternoon!' parameter of the write method 
+
+how do I write a script for a web page
+- keep the javascript in its own file
+use the <script> element 
+
+
+??????? - do not understand at this point 
+if you view the source code of the page in the browser, the javascript will not have changed the html 
+because the script works with the model of the web page that the browser has created 
+
+
+basic javascript instructions 
+some statements are surrounded by curly braces known as code blocks 
+the closing curly brace is not followed by a semicolon 
+
+var today = new Date(); 
+var hourNow = today.getHours();
+var greeting; 
+
+if (hourNow >18) {
+  greeting = 'Good evening'; 
+} else if (hourNow >12) {
+  greeting = 'Good morning';
+} else {
+  greeting = 'Welcome';
+}
+document.write(greeting);
+
+/*   multiline comments */
+// single line comments 
+
+var quantity;  declaring a variable 
+quantity = 3;  assigning a variable 
+
+using a variable to store a number example 
+
+
+// this is the javascript code in a separate file 
+var price; 
+var quantity; 
+var total; 
+
+price = 5; 
+quantity = 14; 
+total = price * quantity;
+ 
+var el = document.getElementbyId('cost');
+el.textContent = '$' +total; 
+
+//this is the html code in a separate file 
+
+<h1>Elderflower</h1>
+<div id = "content">
+  <h2>Custom Signage</h2>
+  <div id = "cost">Cost:$5 per tile</div>
+  <img src= "images/preview.jpg" alt="Sign" />
+</div>
+<script src= "js/numeric-variable.js"></script>
+
+
+
+Using a variable to store a string 
+
+// js file 
+
+var username; 
+var message; 
+username = Molly; 
+message = 'See our upcoming range';
+
+var elName = document.getElementById('name');
+elName.textContent = username; 
+var elNote = document.getElementById('note');
+elNote.textContent=message; 
+
+//html 
+
+<h1>Elderflower</h1>
+<div id="content">
+  <div id="title">Howdy
+    <span id = "name">friend</span>!</div>
+  <div id="note">Take a look around...</div>
+</div>
+<script src="js/string-variable.js"></script>
+
+using quotes inside a string 
+
+//js 
+
+var title; 
+var message; 
+title = "Molly's special offers"; 
+message = '<a href=\"sale.html\">25% off! </a>; 
+ 
+var elTitle=document.getElementById('title); 
+elTitle.innerHTML=title; 
+var elNote = document.getElementById('note');
+elNote.innerHTML = message; 
+
+//html 
+<h1>Elderflower</h1>
+<div id="content>
+  <div id="title">Special Offers</div>
+  <div id="note">Sign up to recieve personalized offers!</div>
+</div>
+<script src = "js/string-with-quotes.js"></script>
+
+
+//shorthand for creating variables 
+
+//js 
+var price = 5; 
+var quantity = 14; 
+var total = price + quantity; 
+
+// second example 
+
+var price, quantity, total; 
+price = 5; 
+quantity = 14; 
+total = price * quantity; 
+
+
+// third example
+var price = 5, quantity = 14; 
+var total = price *quantity; 
+
+// js 
+var el = document.getElementById('cost'); 
+el.textContent = '$' + total;
+
+var colors; 
+colors = ['white', 'black', 'custom'];  //this is an array literal and it is the preferred way to make an array over array constructor 
+var el = document.getElementById('colors');
+el.textContent = colors[0]; 
+
+//js 
+// setting up an array with array constructor 
+
+var colors = new Array ('white', 
+                        'black', 
+                        'custom'); 
+var el = document.getElementById('colors');
+el.textContent = colors[0]; 
+
+
+// array constructor is done by using array(); the values inside are specified in the parentheses and each value is 
+// separated by a comma
+
+//accessing and changing values in an array 
+//create an array 
+var colors = ['white', 
+              'black', 
+              'custom']; 
+//update the third item in the array 
+colors[2] = beige; 
+// get the element with an id of colors 
+
+var el = document.getElementById('colors'); 
+
+//replace with third item from the array 
+el.textContent = colors[2]; 
+
+increment  is ++
+decrement  is --
+modulus    is %
+
