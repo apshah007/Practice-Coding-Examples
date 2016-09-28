@@ -27,14 +27,42 @@ document.write(obj5.arr1[1]+" with "+obj5.arr[0]+" for dinner");
 </html>
 
 
-//Part 2
+//Part 2, this is how to make an ajax request 
 <!DOCTYPE html>
 <html>
 <head>
 <script type= "text/javascript">
-
-
+function ajax_get_json() {
+  var results = document.getElementById("results").innerHTML = return_data; 
+  var fn = document.getElementById("first_name").value; 
+  var ln = document.getElementById("last_name").value; 
+  var vars = "firstname="+fn+"&lastname"+ln; 
+  hr.open("GET", "mylist.json", true);
+  hr.setRequestHeader("Content-type", "application/json, true)"
+  hr.onreadystatedchange = function(){
+       if(hr.readyState == 4 && hr.status == 200) {
+            var data = JSON.parse(hr.responseText); 
+           // results.innerHTML = data.u2.user+" is "+data.u2.age+" "and lives in "data.u2.country; 
+//loop  run through all objects and parse through the data
+        for (var obj in data) 
+	results.innerHTML =+ data[obj].user+" is"+data[obj].age+" and lives in "+data[obj].country+ <hr />;
+            }
+}
+hr.send(null);
+results.innerHTML = "requesting..."
+}
 </script>
 </head>
+<body>
+ <div id="results">
+  <script type= "text/javascript">ajax_get_json()</script>
+ </div>
 </body>
 </html>
+
+mylist.json
+{
+  "u1":{user:"John", age:22, country:"United States" }, 
+  "u2":{user:"Will", age:27, country:"United Kingdom"},  
+  "u3":{user:"Abiel", age:19, country:"Mexico"}
+}
