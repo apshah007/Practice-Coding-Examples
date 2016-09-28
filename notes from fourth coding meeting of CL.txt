@@ -1,0 +1,170 @@
+brian luerman - talking about software jobs 
+
+coding knowledge
+ 
+Front end Dev
+Back end Dev
+Database Dev 
+testing QA 
+infrastructure and systems
+support 
+architect 
+business analyst 
+project manager 
+sales. solutions 
+management 
+
+software development life cycle  SDLC
+
+knowledge of coding comes in at all different levels of the SDLC
+can apply the knowledge elsewhere 
+everything I am about to say to night is in general 
+based on the company that is affected and you are working for 
+
+front end jobs - building the part that the user interacts with
+ 
+everything we are doing in this class falls under front end jobs 
+
+user experience - how does the user feel when they are using the program 
+really advanced development has emotional experiences 
+aesthetic choices 
+lesser known -- pure design or mock up work 
+building mockups in photoshop or balsamic   
+this is not a separate role in a small or medium size company 
+
+UI and UX are sometimes separate and sometimes together 
+
+Back end dev -- 
+logic with how something works 
+is it writing to a database 
+back end type work - - C#, python, ruby, C, C++, java, php, javascript can be back end as well 
+mean stack - expansion, now a front end and a back end technology 
+
+software developer 
+language developer 
+
+generic titles --- 
+systems analyst 
+business analyst 
+
+
+front end -- web developer 
+programmer   js developer
+
+3 subroles 
+UI - what is build
+UX - what the user actually experiences from the product 
+Mock ups and design 
+
+
+.NET engineer  - familiar with .NET  use C#
+you should always understand the job clearly before you accept anything 
+mongo - SQL  structured query language 
+select star from the table user   
+joining data from tables and make a complex report 
+database work can get into analytics 
+research medical field == data mining 
+working with large amts of data 
+
+
+back end or database are the same job 
+database dev - database maintenance in large companies is a job 
+maintain the server  or maintain the data 
+
+
+testing QA - act like a user and can use coding 
+load testing  - simulate thousands of users to see if the code will break 
+every time you make a change to the application you can run a script to see if the program breaks 
+testing - is very critical to integrity of the program 
+
+selenium - saves a script and runs it over 
+code in selenium and find elements and insert code there 
+to test the application 
+ways to test an application 
+first impression is that it is an afterthought - but should not be 
+start developers are the qa team 
+for every developer there might be 1-2 qa roles   
+
+
+student is doing qa  - she works for zirmed and tests sql 
+discusses her job position, do qa really need to know code 
+she found that doing code is important for doing her job 
+qa is not a lower role despite what some people think 
+good sign when developers appreciate the qa person 
+frustration to want to move on to the next feature instead of qa the current one 
+
+infrastructure and systems 
+not physical hardware 
+one piece of hardware simulates multiple server 
+cloud is just someone elses server 
+amazon web service - largest cloud service, they will rent it out to you per hours 
+for up to 1 year can get free service 
+
+coding can play a lot with infrastructure 
+generate reports in IS field 
+netflix user to be on amazon servers. 
+they had a good scripting system to help them remember what servers they needed 
+this was to simulate peak times with people interest in watching movies 
+this is coding to say what service to turn on and when to turn it on 
+
+support 
+tech support    email support   video support 
+coding can help but it depends on what level you are on 
+tier 1 - front desk - password reset 
+tier 2 - knows more 
+tier 3 - can be a developer  knows most 
+developer might be talking to a customer to figure out a bug 
+
+user encountered this issues = support to help find the bug 
+student had a coworker who was in tier 2 support tech field 
+coworker wrote apps that helped him to do his work 
+
+architect - high level role, system designer, lays out a solution 
+may or may not be writing code 
+very high level developer 
+
+business analyst - general term   the most common is to deal with requirements for the system
+figure out what the system needs to do and then pass it all to the developers to help them build the program 
+may be basic or may be more technical 
+it is a go between for the client and developer 
+
+project manager - experienced role 
+jr project manager - not the management   
+they focus on the project   not the hiring or firing 
+there are exceptions to that 
+they are like a traffic cop to help with rules 
+they do all kinds of things something different everyday 
+need to know a little bit about what everyone does   need to know about testing, what a dev does 
+keep people on deadlines 
+
+sales.  solution 
+may be simple, may need technical people to see their product 
+communicate what the person needs to the developer sometimes 
+solutions architect - more technical sales role
+
+they need this system that does a certain thing 
+management, technical or function manager (low level or C level position (ceo, cio, etc) ) 
+
+Dev OPs 
+what does it mean?
+is this a new term or a fad?
+in bw pure hardware and pure developer workers 
+bridge hardware and code 
+larger companies are more hiring dev ops - they feel they can get more out of an employee 
+large conglomerate jobs - google, etc  - looking at big picture helps 
+
+movement towards using platform as a service model 
+like hiroku 
+pay someone else to deal with hardware
+you dont need the dev ops person then 
+
+go with the sales person to a meeting to talk about what the requirements are needed 
+
+field engineering   - bw qa and dev 
+large projects with big teams   must coordinate 
+for example need to coordinate git 
+
+smaller companies are where you do all the jobs 
+do all the SDLC roles in one job 
+
+Code challenge  discussed 
