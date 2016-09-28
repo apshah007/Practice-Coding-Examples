@@ -1,0 +1,61 @@
+building a portfolio that is responsive 
+
+skeleton css frame work 
+adding google webfonts 
+lightbox effect 
+media queries to make sure that it responsive 
+
+what you need to know before you begin 
+html and css
+html essential training 
+web design fundamentals 
+start inside of photoshop 
+
+brief demonstration = skeleton 12 column grid framework 
+photoshop to design a website
+new guide layout  - specify the type of grid you would like to create 
+layout all the elements in photoshop 
+see how many columns are the pictures taking 
+header element takes up 3-4 columns of space 
+important to know how many columns things take up 
+using a framework 
+
+download a framework - skeleton  which is a responsive css boilerplate 
+getskeleton.com 
+can download this and save to desktop 
+unzip the file and see what is included 
+this is a bare bones framework to help you get started 
+
+setting up your html document 
+when the file is open, create a new html file  and save to desktop in a new folder 
+use a code editor 
+photography portfolio 
+
+index.html document 
+use the skeleton to make it work 
+basic skeleton for website then add in the unique elements 
+create own style 
+anytime framework is changed need to change the name 
+
+add in a reference to the style sheet 
+put these inside the css folder 
+need to link the style sheets 
+add your own styles to the document and have them linked to your website 
+
+google fonts discussed 
+www.google.com/fonts
+search for abel 
+
+go to the bottom of the page and link it the font section 
+<link href = 'http. etc ....'
+search for satisfy font 
+
+icon fonts are taking over,  font awesome  
+fontawesome.io
+
+get started link - discussed 
+easy default css
+add this to the css file 
+
+
+
