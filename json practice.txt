@@ -1,0 +1,40 @@
+// JSON tutorial on youtube Adam Khoury  part1
+
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+var obj1 = {user:"John", age:22, country:"United States" };  //sort of like an array
+var obj2 = {user:"Will", age:27, country:"United Kingdom" };  //sort of like an array
+var obj3 = {user:"Abiel", age:19, country:"Mexico" };  //sort of like an array
+var obj4 = {u1:obj1, u2:obj2, u3:obj3}; //deep data nesting 
+document.write(obj3.user+""+obj3.age+ "years old and lives in "+obj3.country); 
+obj3.country = "Italy"; 
+/*
+document.write ("<hr/>");
+document.write(obj3.user+""+obj3.age+ "years old and lives in "+obj3.country);
+document.write ("<hr/>");
+document.write (obj4.u2.country+" is from "+obj4.u2.country); //will is from united kingdom, with dot notation
+document.write ("<hr/>");
+document.write (obj4["u2"]["user"]); //looks like an array index 
+*/
+var meats = ["beef". "pork", "lamb"];
+var fruit = ["apple", "plum", "grape", "orange"]; 
+var obj5 = {arr1:meats, arr2:fruit }; 
+document.write(obj5.arr1[1]+" with "+obj5.arr[0]+" for dinner");
+</script>
+</head>
+</html>
+
+
+//Part 2
+<!DOCTYPE html>
+<html>
+<head>
+<script type= "text/javascript">
+
+
+</script>
+</head>
+</body>
+</html>
