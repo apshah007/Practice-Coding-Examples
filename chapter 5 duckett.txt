@@ -1,0 +1,66 @@
+//document object model - specifies how browsers should create a model of an HTML page and how js 
+can access and update the contents of a web page while it is in the browser window
+
+//the DOM is made of objects so it is an object model 
+
+//accessing and changing the html page - defines methods and properties and updates each object in this model 
+which in turn updates what the user sees in the browser 
+
+
+//the DOM is an API - application programming interface 
+user interfaces let humans interact with programs 
+APIs let programs and scripts talk to each other 
+
+the DOM tree is a model of a webpage
+as browsers load a web page it creates a model of the page which is a document object model or DOM or DOM tree
+that is stored in the browsers memory - consists of 4 main types of nodes 
+
+<html>
+  <body>
+    <div id= "page">
+       <h1> id= "header">List</h1>
+       <h2>Buy groceries</h2>
+    <ul>
+       <li id = "one" class = "hot"><em>fresh</em> figs<li>
+       <li id = "two" class = "hot">pine nuts</li>
+       <li id = "three" class "hot">honey<li>
+       <li id = "four" >balsamic vinegar</li>
+    </ul>
+    <script src="js/list.js"></script>
+    </div>
+  </body>
+</html>
+
+dom tree consists of 
+- document node - the entire webpage 
+- element notes - elements like <h1> and <p> of the webpage 
+- attribute nodes - these are the children of the the element that carries them , they are part of that element 
+- text nodes - cannot have children, text node is always a new branch of the DOM tree and no further branches come
+off of it
+
+ working with the DOM tree
+1. locate the node that represents the element you want to work with 
+2. use its text content, child elements, and attributes 
+
+select an individual element node 
+getElementById() - uses the id attribute (should be unique in the page) 
+
+query selector() - uses a css selector  and returns the first matching element 
+
+
+
+select multiple element (nodelists) 
+getElementByClassName() - selects all elements that have a specific value for their class attribute
+
+getElementsByTagName() - selects all elements that have the specified tag name 
+
+querySelectorAll() - uses a css selector to select all matching elements 
+
+
+
+traversing between element nodes 
+
+parentNode - selects the parent of the current node 
+previousSibling / nextSibling   - selects the previous or next sibling from the DOM tree 
+firstChild  / lastChild  - selects the first or last child of the current element 
+
