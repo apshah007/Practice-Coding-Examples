@@ -1,0 +1,273 @@
+//duckett chapter 4 pg 153 - 
+
+using comparison operators 
+javascript 
+
+var pass= 50; 
+var score= 90; 
+
+var has Passed = score >= pass; 
+var el = document.getElementByd('answer'); 
+el.textContent = 'Level passed: '+hasPassed; 
+
+
+(score >= pass)
+score is operand
+>= is comparison operator 
+pass is operand
+
+using expressions with comparison operators 
+the operand does not have be a single value or var, it can be an expression 
+
+((score1+ score2) > (highScore1 +highScore2))
+
+comparison of 2 expressions 
+
+javascript 
+
+var score1= 90; 
+var score2 = 95; 
+var highScore1 = 75; 
+var highScore2 = 95; 
+
+//checks to see if the scores are higher than the current high scores
+var comparison = (score1 + score2) > (highSore1 + highScore2); 
+
+//writes the message into the page 
+var el = document.getElementById('answer');
+el.text content = 'New high score: '+comparison;  
+
+
+//logical operators 
+&& logical and
+|| logical or 
+! logical not
+
+
+//using logical and 
+
+var score1 = 8;  
+var score2 = 8; 
+var pass1= 6;
+var pass2= 6; 
+
+//check whether user passed both rounds, store result in variable 
+var passBoth = (score1>=pass1)&&(score2>=pass2);
+
+//create message 
+var msg = 'both rounds passed: '+passBoth; 
+
+//Write the message into the page
+var el = document.getElementById('answer'); 
+el.textContent = msg; 
+
+//using logical or and using logical not
+
+var score1 = 8; 
+var score2 = 8; 
+var pass1 = 6; 
+var pass2 = 6; 
+
+//check whether user has passed one of the 2 rounds, store result in variable 
+var minPass = ((score1 >= pass1) || (score2 >=pass2)); 
+
+//create message
+var msg = 'resit required: ' + !minPass; 
+
+//write the message into the page
+var el = document.getElementById(answer);
+el.textContent = msg; 
+
+
+//if statements 
+
+if (score >= 50) {
+  congratulate ();   //code to execute if true 
+}
+
+//using if statements 
+
+var score = 75; 
+var msg; 
+
+if (score>=50) {
+  msg = 'congratulations!'; 
+  msg += 'Proceed to the next round. '; 
+}
+
+var el = document.getElementById('answer');
+el.textContent = msg; 
+
+
+
+//if else statements 
+if (score>50) {
+  congratulate(); 
+}
+
+else{
+  encourage(); 
+}
+
+
+var pass = 50; 
+var score = 75; 
+var msg; 
+
+//select message to write based on score 
+if (score >= pass) {
+  msg = 'Congratulations, you passed! '; 
+}
+  else {
+  msg = 'Have another go!'; 
+}
+
+var el = document.getElementById('answer'); 
+el.textContent = msg; 
+
+//switch statements 
+
+switch(level){
+ case 'One': 
+   title = ''Level 1'; 
+   break; 
+
+ case 'two':
+   title= 'Level 2'; 
+   break; 
+
+ case 'three":
+   title= "Level 3"; 
+   break; 
+  
+ default: 
+   title = 'Test'; 
+   break; 
+
+}
+
+
+//type coercion and weak typing 
+
+if you use a data type that Js did not expect, it tries to make sense of the operation rather than report an error 
+
+weak typing - data type for the value can change 
+strong typing - specify what data type the variable must be 
+
+type coercion can lead to unexpected values in your code and also cause errors
+so when checking if 2 values are equal it is better to use strict equals 
+=== and !==  rather than == or != 
+strict operators check that the value and data types match 
+
+//truthy and falsy values 
+
+due to type coercion, every value in Js can be treated as if it were true or false and this has some interesting 
+effects
+
+falsy - values treated as if they are false, can be treated as number 0 
+truthy - values treated as if they are true, can be treated as number 1 
+
+presence of an object or an array is usually considered truthy as well 
+
+// checking equality and existence 
+
+a unary operator returns a result with just one operand 
+checking for the presence of an element 
+
+if (document.getElementById('header')) {
+//found: do something
+}else {
+//not found:do something else
+}
+
+if (document.getElementById('header') == true)
+this returns an object which is a truthy value but it is not equal to the boolean value of true
+because of type coercion, the strict equality operators === and !== result in fewer unexpected values than 
+== and != do 
+
+
+for (var i = 0; i<10; i++) {
+  document.write(i); 
+}
+
+initialization 
+condition
+update 
+
+
+2 keywords used with loops = 
+break - termination of the loop 
+and go to the next statement of code outside the loop 
+
+continue - stop the current iteration and then update and check the condition if it is true 
+if the condition is true the code runs again 
+
+loops and arrays
+any variable you can define outside the loop and that does not change within the loop should be defined 
+outside of it   it it were declared inside the loop, it would be recalculated every time that loop ran 
+-- wasteful of resources 
+
+
+using while loops 
+
+var i= 1; 
+var msg = ' '; 
+while (i<10) {
+  msg += i+ ' x5= '+(i*5)+"<br />;
+  i++; 
+}
+
+using do while loops 
+
+var i = i; 
+var msg = ' '; 
+do {
+  msg += i + ' x5= ' +(i*5)+ '<br />;
+  i++; 
+} while (i<1); 
+
+document.getElementById('answer').innerHTML = msg; 
+
+
+
+//example of html for a loop
+
+<!DOCTYPE html> 
+ <html> 
+  <head> 
+    <title>Bullseye! Tutoring</title>
+    <link rel="stylesheet" href"css/c04.css"  />
+  </head>
+  <body>
+    <section id= "page2">
+      <h1>Bullseye</h1>
+      <img src= "images/teacher.png"  id=teacher2  alt =" "/>
+      <section id="blackboard"></section>
+    </section>
+   <script src ="js/example.js"></script>
+  <body>
+<html>
+
+
+
+//js example of a loop 
+
+var table = 3; 
+var operator = 'addition';
+var i= 1; 
+var msg = ' '; 
+
+if operator === 'addition') {
+  while (i<11) {
+    msg +=i + ' + 'table + ' = ' + (i+table) + '<br />';
+    i++
+}else{
+  while (i<11) {
+  msg += i + ' x ' + table + ' = '+ (i * table) + '<br />';
+}
+}
+
+// write the message to the page 
+
+var el = document.getElementById('blackboard')
+el.innerHTML= msg; 
